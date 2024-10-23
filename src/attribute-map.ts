@@ -1,4 +1,4 @@
-import { escape, unescape } from "./html-utils.ts";
+import { escape, unescape } from "./utils.ts";
 
 /**
  * HTML attributes map
