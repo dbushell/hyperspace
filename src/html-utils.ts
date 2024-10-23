@@ -5,7 +5,7 @@ import { inlineTags } from "./html-tags.ts";
  * Merge adjacent text and inline Nodes into single text Node
  * @param node HTML Node
  */
-export const mergeInlineNodes = (node: Node) => {
+export const mergeInlineNodes = (node: Node): void => {
   for (const child of [...node.children]) {
     if (child.type === "OPAQUE") {
       continue;
