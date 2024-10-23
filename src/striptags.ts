@@ -12,10 +12,14 @@ const removeTags = new Set([
   "figure",
   "form",
   "iframe",
+  "object",
   "picture",
   "pre",
   "script",
   "style",
+  "svg",
+  "template",
+  "textarea",
   "table",
   "video",
 ]);
@@ -48,9 +52,9 @@ export const stripTags = (
   }
   // Wrap quote in alternating typographic style
   if (quoteTags.has(node.tag)) {
-    const quotes = style % 2 ? "‘’" : "“”";
     const empty = new Node(null, "ROOT");
     empty.append(...node.children);
+    const quotes = style % 2 ? "‘’" : "“”";
     return quotes[0] + stripTags(empty, style + 1, true) + quotes[1];
   }
   // Render children
