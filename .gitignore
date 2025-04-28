@@ -4,7 +4,7 @@
 !hypermore
 !hyperserve
 !.github
-!.github/workflows/jsr.yml
+!.github/workflows/*.yml
 !.gitignore
 !deno.jsonc
 !LICENSE
