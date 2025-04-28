@@ -6,7 +6,7 @@ HTML preprocessor and template engine built with [Hyperless](https://github.com/
 
 ⚠️ **Work in progress!** ⚠️
 
-[Documentation](/docs/documentation.md)
+[Documentation](/hypermore/docs/documentation.md)
 
 * * *
 
