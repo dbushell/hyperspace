@@ -3,6 +3,8 @@
 !hyperless
 !hypermore
 !hyperserve
+!.github
+!.github/workflows/jsr.yml
 !.gitignore
 !deno.jsonc
 !LICENSE

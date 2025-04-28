@@ -1,7 +1,5 @@
 /*
 /**/*.*
-!.github
-!.github/**/*.yml
 !.gitignore
 !deno.jsonc
 !package.json

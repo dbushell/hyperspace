@@ -1,7 +1,5 @@
 /*
 /**/*.*
-!.github
-!.github/**/*.yml
 !.gitignore
 !deno.jsonc
 !README.md
@@ -12,3 +10,4 @@
 !test
 !test/**/*.ts
 !test/**/*.html
+!test/**/*.txt
