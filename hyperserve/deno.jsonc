@@ -1,0 +1,25 @@
+{
+  "name": "@dbushell/hyperserve",
+  "version": "0.21.0",
+  "exports": {
+    ".": "./mod.ts"
+  },
+  "publish": {
+    "include": ["src", "mod.ts", "deno.jsonc", "LICENSE", "README.md"],
+    "exclude": [".github", "test"]
+  },
+  "lint": {
+    "include": ["**/*.ts"]
+  },
+  "tasks": {
+    "test": "ORIGIN=https://localhost deno test --allow-env --allow-net --allow-read --allow-run"
+  },
+  "imports": {
+    "@ssr/velocirouter": "jsr:@ssr/velocirouter@^0.12.0",
+    "@std/crypto": "jsr:@std/crypto@^1.0.4",
+    "@std/encoding": "jsr:@std/encoding@^1.0.10",
+    "@std/fs": "jsr:@std/fs@^1.0.17",
+    "@std/http": "jsr:@std/http@^1.0.15",
+    "@std/path": "jsr:@std/path@^1.0.9"
+  }
+}

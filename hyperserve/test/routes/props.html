@@ -1,0 +1,9 @@
+<script context="module">
+  export const load = ({params, platformProps}) => {
+    platformProps.number = 42;
+  };
+</script>
+
+<span id="hash">{{$global.deployHash}}</span>
+<span id="number1">{{number}}</span>
+<test-props number="777" />

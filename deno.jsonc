@@ -1,0 +1,7 @@
+{
+  "workspace": [
+    "./hyperless",
+    "./hypermore",
+    "./hyperserve"
+  ]
+}

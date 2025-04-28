@@ -1,0 +1,10 @@
+<script context="module">
+  export const pattern = '/:year(\\d+)/:month(\\d+)/:day(\\d+)/:slug/';
+
+  export const load = ({params, platformProps}) => {
+    platformProps.params = {...params};
+  };
+</script>
+
+<h1>{{params.slug}}</h1>
+<time>{{params.year}}-{{params.month}}-{{params.day}}</time>

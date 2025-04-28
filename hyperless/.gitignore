@@ -1,0 +1,13 @@
+/*
+/*.*
+!.github
+!.gitignore
+!deno.jsonc
+!package.json
+!README.md
+!LICENSE
+!mod.ts
+!src
+!src/**/*.ts
+!test
+!test/*.ts

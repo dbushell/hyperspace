@@ -1,0 +1,14 @@
+/*
+/**/*.*
+!.github
+!.github/**/*.yml
+!.gitignore
+!deno.jsonc
+!README.md
+!LICENSE
+!mod.ts
+!src
+!src/**/*.ts
+!test
+!test/**/*.ts
+!test/**/*.html

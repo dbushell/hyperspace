@@ -5,7 +5,7 @@
     ".": "./mod.ts"
   },
   "publish": {
-    "include": ["src", "mod.ts", "deno.json", "LICENSE", "README.md"],
+    "include": ["src", "mod.ts", "deno.jsonc", "LICENSE", "README.md"],
     "exclude": [".github", "test", "package.json"]
   },
   "lint": {

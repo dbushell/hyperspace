@@ -1,0 +1,14 @@
+{
+  "name": "@dbushell/hypermore",
+  "version": "0.29.0",
+  "exports": {
+    ".": "./mod.ts"
+  },
+  "publish": {
+    "include": ["src", "mod.ts", "deno.jsonc", "LICENSE", "README.md"],
+    "exclude": [".github", "docs", "test", "package.json"]
+  },
+  "lint": {
+    "include": ["**/*.ts"]
+  }
+}
