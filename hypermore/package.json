@@ -3,7 +3,7 @@
   "version": "0.30.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbushell/hypermore.git"
+    "url": "git+https://github.com/dbushell/hyperspace.git"
   },
   "description": "Experimental HTML preprocessor and template engine.",
   "keywords": [
