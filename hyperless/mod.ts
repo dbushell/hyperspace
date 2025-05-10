@@ -11,3 +11,4 @@ export {
 export { excerpt } from "./src/excerpt.ts";
 export { stripTags } from "./src/striptags.ts";
 export { escape, unescape } from "./src/utils.ts";
+export { normalizeWords } from "./src/normalize.ts";
