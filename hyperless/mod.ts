@@ -1,4 +1,4 @@
-export { inlineTags, opaqueTags, voidTags } from "./src/html-tags.ts";
+export { blockTags, inlineTags, opaqueTags, voidTags } from "./src/html-tags.ts";
 export { AttributeMap } from "./src/attribute-map.ts";
 export { parseAttributes } from "./src/attribute-parser.ts";
 export { Node } from "./src/html-node.ts";
